@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  QY_Tips
+//
+//  Created by dllo on 16/9/21.
+//  Copyright © 2016年 杨志. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "YZ_Base_TableViewCell.h"
+#import "YZ_BaseCollectionViewCell.h"
+
+#import "AppDelegate.h"
+#import "UIButton+Block.h"
+#import "UINavigationBar+YZAlphaBar.h"
+#import "UIView+Frame.h"
+
+#import "MyScrollView.h"
+
+#define WIDTH self.view.frame.size.width
+#define HEIGHT self.view.frame.size.height
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
